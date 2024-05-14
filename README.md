@@ -140,11 +140,17 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. 'openbox --reconfigure'
 
-Optional: 
+Optional: (kind of personal fix)
 
+install auto-cpufreq (if you r using a laptop)
 
+if you are using lenovo and want to change lenovo logo, go to lenovo logo tab one
 
+if you using ibus but having problem, you can go to ibus troubleshoot tab one
 
+if you have problem with pulseaudio, you can go to pulseaudio tab one
 
+if your discord can't share audio in browser then go to discord fix tab one
 
+THANKS YOUR GUY FOR READING. :) :)
 
