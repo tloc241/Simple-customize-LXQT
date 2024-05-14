@@ -68,7 +68,7 @@ And that all, enjoy your custom boot logo
 
 LXQT use sddm at is lock screen so it can be change as well, unfortunally, i only capable to make MarianArlt sddm work, other sddm lock sreen you found on gnome-look might not work, and i don't know how to fix it either, sr
 
-1. Download sddm theme, like i said above only MarianArlt themes work, show MarianArlt alternative also work, you can check sugar dark, sugar candy, the-zero885 lubuntu-sddm-theme
+1. Download sddm theme, like i said above only MarianArlt themes work, some MarianArlt alternative also work, you can check out sugar dark, sugar candy, the-zero885 lubuntu-sddm-theme
 2. extract the file you just download, and move it to sddm folder: /usr/share/sddm/themes ('cd ~/Downloads'  'ls'   'sudo mv <folder name> /usr/share/sddm/themes'
 3. If you using lxqt on lubuntu like mine, just rename ubuntu-theme folder (for backup resson) : 'cd /usr/share/sddm/themes/'   'sudo mv ubuntu-theme ubuntu-theme-bakcup'
 If you using lxqt in other distro just rename lubuntu folder: 'cd /usr/share/sddm/themes/'   'sudo mv lubuntu lubuntu-bakcup'
