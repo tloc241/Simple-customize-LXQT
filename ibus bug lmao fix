@@ -1,0 +1,7 @@
+uninstall it first: sudo nala remove ibus
+reinstall it back 
+open session setting and go to autorun tab
+name it /usr/bin/ibus-daemon
+command /usr/bin/ibus-daemon -dr
+just ok and close it
+log out to test if it work or not (the shorcut sometime is conflict instend of super+space now it need shift+super+space to work)
