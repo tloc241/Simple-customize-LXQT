@@ -1,4 +1,4 @@
-# simple-customise-lxqt
+# Simple-customise-lxqt
 Custom DE dont have to install or download too much app
 
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: 'sudo apt install -y nala' and press enter.
@@ -18,17 +18,17 @@ First, go to gnome-look.org, then go to search bar and search for grub theme, at
 After download it, you have to add it into a config file, this is how you do it:
 
 1. Open file manager, then ctrl + l show you can change the directory,
-2. type /usr/share/grub/themes/ ,
-3.  in there press f4 on your keyboard, it'll show up a terminal
-4.  type cd ~/Downloads, you can open another file manager and go to Downloads and extract to themes you just download of simply extract it through terminal by 'upzip <file name>', then ls to show your file name.
-5.   After extract you have to type this: 'sudo mv <folder you just extract> /usr/share/grub/themes .
+2. Type /usr/share/grub/themes/ ,
+3. In there press f4 on your keyboard, it'll show up a terminal
+4. Type cd ~/Downloads, you can open another file manager and go to Downloads and extract to themes you just download of simply extract it through terminal by 'upzip <file name>', then ls to show your file name.
+5. After extract you have to type this: 'sudo mv <folder you just extract> /usr/share/grub/themes .
 6. Type this in file manager directory: 'etc/default/ and find a grub.conf file, open it up.
 7. At here you have to change the line below: /usr/share/grub/themes/<your theme name>/theme.txt ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/f421f6b3-d7ca-43af-8518-13ec7ce47625)
-8. open terminal and type: 'sudo update-grub' and now you can reboot and enjoy your new grub UI now. ![IMG_20240506_180823_353](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0ba5caf6-412d-4519-bc20-db50ce799a50)
+8. Open terminal and type: 'sudo update-grub' and now you can reboot and enjoy your new grub UI now. ![IMG_20240506_180823_353](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0ba5caf6-412d-4519-bc20-db50ce799a50)
 
 Bonus: to change icon you have two way of doing that
-1. go to icons folder of your theme then open it with gimp (sudo nala install -y gimp) and drag your picture into it and save it by ctrl shift e and close it, it'll show warning, just discard it.
-2. go to grub customizer and edit your boot directory, add this line above 'search --no-floppy --fs-uuid --se' : menuentry ''change this to your boot default name'' --class 'changde this to your icon name' { .
+1. Go to icons folder of your theme then open it with gimp (sudo nala install -y gimp) and drag your picture into it and save it by ctrl shift e and close it, it'll show warning, just discard it.
+2. Go to grub customizer and edit your boot directory, add this line above 'search --no-floppy --fs-uuid --se' : menuentry ''change this to your boot default name'' --class 'changde this to your icon name' { .
 
    ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/57ebf595-ebe5-4b24-bfc9-0bcf7a0521cd)
 
