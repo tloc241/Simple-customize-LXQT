@@ -135,9 +135,7 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 2. open this file with featherpad or nano
 3. add this thing to this place ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/e76929a3-c491-4e10-8705-53ab6dae0eb2)
 
-(at middle keyboard and keybind) 
-
-
+(at middle keyboard and keybind) copy all in tiling.txt file to rc.xml
 
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. 'openbox --reconfigure'
