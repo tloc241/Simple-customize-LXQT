@@ -1,4 +1,8 @@
 # Simple-customise-lxqt
+#Preview
+
+![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/913a85fc-67e8-457e-a30f-6d0c2655fb5c)
+
 Custom DE dont have to install or download too much app
 
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: 'sudo apt install -y nala' and press enter.
