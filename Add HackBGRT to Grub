@@ -1,0 +1,8 @@
+After you running setup.exe choose I option (optional: to check if it had added to EFI folder or not {if your EFI drive dont show up} you have to install AOMEI wizard 
+After making EFI drive visable and you check that if already have loader.efi, now you can boot back to linux distrobution
+install grub customizer
+add a new custom boot one
+in boot sequence just copy all in original windows one
+change the line change loader from boot/ bla bla to '/EFI/HackBGRT/loader.efi'
+save it and that all done
+If you want to have a custom icon for your custom icon aswell, you have to type this to boot sequece '(menuentry 'HackBGRT' --class hackbgrt { )' and save it (remember to add an icon that you name in class one, also dont forget to 'sudo update-grub' after adding a new icon
