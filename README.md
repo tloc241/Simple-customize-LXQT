@@ -31,12 +31,17 @@ After download it, you have to add it into a config file, this is how you do it:
 8. Open terminal and type: 'sudo update-grub' and now you can reboot and enjoy your new grub UI now. ![IMG_20240506_180823_353](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0ba5caf6-412d-4519-bc20-db50ce799a50)
 
 Bonus: to change icon you have two way of doing that
-1. Go to icons folder of your theme then open it with gimp (sudo nala install -y gimp) and drag your picture into it and save it by ctrl shift e and close it, it'll show warning, just discard it.
-2. Go to grub customizer and edit your boot directory, add this line above 'search --no-floppy --fs-uuid --se' : menuentry ''change this to your boot default name'' --class 'changde this to your icon name' { .
 
-   ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/57ebf595-ebe5-4b24-bfc9-0bcf7a0521cd)
+Option 1. Go to icons folder of your theme then open it with gimp (sudo nala install -y gimp) and drag your picture into it and save it by ctrl shift e and close it, it'll show warning, just discard it.
 
-After that remember to press save icon.
+Option 2: 
+1. Go to /boot/grub/ and find grub.cfg find, make a backup of that file. After that open it with featherpad or nano depend on you
+2. find the line that have menuentry in it then you add --class to it like the image below 
+
+![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0c7c262c-a969-4cce-9a7e-48662cf9c8e7)
+
+After that remember to save it, and that or, if you want to make sure you can run 'sudo update-grub' but i forgot to run it but it still appear good as i expected
+
 
 # 2. Change lxqt boot logo
 
