@@ -42,6 +42,7 @@ Option 2:
 
 After that remember to save it, and that or, if you want to make sure you can run 'sudo update-grub' but i forgot to run it but it still appear good as i expected
 
+![lol](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/1351abb9-ffd3-4a04-934f-c6e5b632ddd5)
 
 # 2. Change lxqt boot logo
 
