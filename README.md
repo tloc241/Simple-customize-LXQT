@@ -26,7 +26,7 @@ After download it, you have to add it into a config file, this is how you do it:
 3. In there press f4 on your keyboard, it'll show up a terminal
 4. Type cd ~/Downloads, you can open another file manager and go to Downloads and extract to themes you just download of simply extract it through terminal by 'upzip <file name>', then ls to show your file name.
 5. After extract you have to type this: 'sudo mv <folder you just extract> /usr/share/grub/themes .
-6. Type this in file manager directory: 'etc/default/ and find a grub.conf file, open it up.
+6. Type this in file manager directory: 'etc/default/grub.d/ and find a grub-theme.cfg file, open it up.
 7. At here you have to change the line below: /usr/share/grub/themes/<your theme name>/theme.txt ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/f421f6b3-d7ca-43af-8518-13ec7ce47625)
 8. Open terminal and type: 'sudo update-grub' and now you can reboot and enjoy your new grub UI now. ![IMG_20240506_180823_353](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0ba5caf6-412d-4519-bc20-db50ce799a50)
 
