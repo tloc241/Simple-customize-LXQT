@@ -57,7 +57,8 @@ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth d
 
  With this command, you need to select the theme
 
-sudo update-alternatives --config default.plymouth}
+sudo update-alternatives --config default.plymouth
+
 8. type this in terminal 'sudo update-initramfs -u -k all'
 
 And that all, enjoy your custom boot logo 
