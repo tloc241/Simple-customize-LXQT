@@ -9,7 +9,7 @@ I'm really recommend you to install Nala, Nala can be alot faster compare to apt
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
 # 1. Custom grub select menu
-To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 'sudo nala install -y grub-customizer' and it will done the job for you.
+To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 'sudo add-apt-repository ppa:danielrichter2007/grub-customizer ' 'sudo nala install -y grub-customizer' and it will done the job for you.
 After it done doing it thing, you press 'super key / windows key' on you keyboard and search for grub customizer and open it. 
 # At here you can change name and add more custom boot
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/c52de175-83f8-44aa-a003-3c706324d447)
