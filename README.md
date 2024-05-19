@@ -40,7 +40,8 @@ Option 2:
 
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/0c7c262c-a969-4cce-9a7e-48662cf9c8e7)
 
-After that remember to save it, and that or, don't 'sudo update-grub, it will reset everything you had made
+After that remember to save it, and that all
+**Don't 'sudo update-grub, it will reset everything you had made**
 
 ![lol](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/1351abb9-ffd3-4a04-934f-c6e5b632ddd5)
 
