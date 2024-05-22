@@ -11,4 +11,4 @@ reboot
 sudo apt install gamemode
 go to /usr/share/gamode and open gamemode.ini with nano or featherpad
 scroll down until u see whilelist, add your game to it (it that game is on flatpak then you have to add full command to it like: "flatpak run com.honker......")
-open game: EX "gamemoderun osu-wine)
+open game: EX "gamemoderun osu-wine"
