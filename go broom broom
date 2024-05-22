@@ -3,6 +3,7 @@ sudo add-apt-repository ppa:damentz/liquorix
 sudo apt update
 sudo apt install curl
 curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash
+reboot
 ## install driver (don't change version, it may not work)
 sudo add-apt-repository ppa:graphics-drivers/ppa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y nvidia-driver-535 libvulkan1 libvulkan1:i386
 reboot
@@ -10,3 +11,4 @@ reboot
 sudo apt install gamemode
 go to /usr/share/gamode and open gamemode.ini with nano or featherpad
 scroll down until u see whilelist, add your game to it (it that game is on flatpak then you have to add full command to it like: "flatpak run com.honker......")
+open game: EX "gamemoderun osu-wine)
