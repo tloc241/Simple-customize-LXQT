@@ -1,3 +1,4 @@
+**fix work for me on Lubuntu 22.04 with LXQT 0.17, not work on Lubuntu 24.04 LXQT 1.4 (backscreen)**
 uninstall it first: sudo nala remove ibus
 reinstall it back 
 open session setting and go to autorun tab
