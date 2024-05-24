@@ -1,1 +1,169 @@
-<!--# Keybindings for window tiling# https://askubuntu.com/questions/1182097/lubuntu-19-10-20-04-how-to-tile-windows-the-window-tiling-section-is-missing--><!--# HalfLeftScreen--><keybind key="C-W-Left">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>0</x>    <y>0</y>    <height>100%</height>    <width>50%</width>  </action></keybind><!--# HalfRightScreen--><keybind key="C-W-Right">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>-0</x>    <y>0</y>    <height>100%</height>    <width>50%</width>  </action></keybind><!--# HalfUpperScreen--><keybind key="C-W-Up">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>0</x>    <y>0</y>    <width>100%</width>    <height>50%</height>  </action></keybind><!--# HalfLowerScreen--><keybind key="C-W-Down">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>0</x>    <y>-0</y>    <width>100%</width>    <height>50%</height>  </action></keybind><!--# 50%LeftUpScreen--><keybind key="C-W-1">  <action name="UnmaximizeFull"/>   <action name="MoveResizeTo">    <x>0</x>    <y>0</y>    <height>50%</height>    <width>50%</width>  </action></keybind><!--# 50%LeftDownScreen--><keybind key="C-W-2">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>0</x>    <y>-0</y>    <width>50%</width>    <height>50%</height>  </action></keybind><!--# 50%RightUpScreen--><keybind key="C-W-3">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>-0</x>    <y>0</y>    <height>50%</height>    <width>50%</width>  </action></keybind><!--# 50%RightDownScreen--><keybind key="C-W-4">  <action name="UnmaximizeFull"/>  <action name="MoveResizeTo">    <x>-0</x>    <y>-0</y>    <height>50%</height>    <width>50%</width>  </action></keybind><!--# Maximize--><keybind key="C-W-M">  <action name="ToggleMaximize"/></keybind><!--# Minimize--><keybind key="C-W-I">  <action name="Iconify"/></keybind><!--# Custom openbox keyboard shortcut# https://lecorbeausvault.wordpress.com/2020/04/06/openbox-quick-window-manipulations-with-keybindings/# Increase window size, each sides separately--><keybind key="C-Left">  <action name="ResizeRelative">    <left>5</left>  </action></keybind><keybind key="C-Right">  <action name="ResizeRelative">    <right>5</right>  </action></keybind><keybind key="C-Up">  <action name="ResizeRelative">    <top>5</top>  </action></keybind><keybind key="C-Down">  <action name="ResizeRelative">    <bottom>5</bottom>  </action></keybind><!--# Decrease window size, each sides separately--><keybind key="A-Left"> <action name="ResizeRelative">    <right>-5</right>  </action></keybind><keybind key="A-Right">    <action name="ResizeRelative">    <left>-5</left>  </action></keybind><keybind key="A-Up">  <action name="ResizeRelative">    <bottom>-5</bottom>  </action></keybind><keybind key="A-Down">  <action name="ResizeRelative">    <top>-5</top>  </action></keybind><!--# Increase/decrease window size--><keybind key="C-minus">  <action name="ResizeRelative">    <left>-5</left>    <right>-5</right>    <top>-2</top>    <bottom>-2</bottom>  </action></keybind><keybind key="C-equal">  <action name="ResizeRelative">    <left>5</left>    <right>5</right>    <top>2</top>    <bottom>2</bottom>  </action></keybind><!--# Move/Resize with keyboard--><keybind key="A-Left">  <action name="MoveRelative">    <x>-5</x>  </action></keybind><keybind key="A-Down">  <action name="MoveRelative">    <y>5</y>  </action></keybind><keybind key="A-Right">  <action name="MoveRelative">    <x>5</x>  </action></keybind><keybind key="A-Up">  <action name="MoveRelative">    <y>-5</y>  </action></keybind> 
+  <!--# Keybindings for window tiling# https://askubuntu.com/questions/1182097/lubuntu-19-10-20-04-how-to-tile-windows-the-window-tiling-section-is-missing-->
+    <!--# HalfLeftScreen-->
+    <keybind key="C-W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <!--# HalfRightScreen-->
+    <keybind key="C-W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <!--# HalfUpperScreen-->
+    <keybind key="C-W-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!--# HalfLowerScreen-->
+    <keybind key="C-W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!--# 50%LeftUpScreen-->
+    <keybind key="C-W-1">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>50%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <!--# 50%LeftDownScreen-->
+    <keybind key="C-W-2">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!--# 50%RightUpScreen-->
+    <keybind key="C-W-3">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>50%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <!--# 50%RightDownScreen-->
+    <keybind key="C-W-4">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <height>50%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <!--# Maximize-->
+    <keybind key="C-W-M">
+      <action name="ToggleMaximize"/>
+    </keybind>
+    <!--# Minimize-->
+    <keybind key="C-W-I">
+      <action name="Iconify"/>
+    </keybind>
+    <!--# Custom openbox keyboard shortcut# https://lecorbeausvault.wordpress.com/2020/04/06/openbox-quick-window-manipulations-with-keybindings/# Increase window size, each sides separately-->
+    <keybind key="C-S-Left">
+      <action name="ResizeRelative">
+        <left>5</left>
+      </action>
+    </keybind>
+    <keybind key="C-S-Right">
+      <action name="ResizeRelative">
+        <right>5</right>
+      </action>
+    </keybind>
+    <keybind key="C-S-Up">
+      <action name="ResizeRelative">
+        <top>5</top>
+      </action>
+    </keybind>
+    <keybind key="C-S-Down">
+      <action name="ResizeRelative">
+        <bottom>5</bottom>
+      </action>
+    </keybind>
+    <!--# Decrease window size, each sides separately-->
+    <keybind key="A-S-Left">
+      <action name="ResizeRelative">
+        <right>-5</right>
+      </action>
+    </keybind>
+    <keybind key="A-S-Right">
+      <action name="ResizeRelative">
+        <left>-5</left>
+      </action>
+    </keybind>
+    <keybind key="A-S-Up">
+      <action name="ResizeRelative">
+        <bottom>-5</bottom>
+      </action>
+    </keybind>
+    <keybind key="A-S-Down">
+      <action name="ResizeRelative">
+        <top>-5</top>
+      </action>
+    </keybind>
+    <!--# Increase/decrease window size-->
+    <keybind key="C-S-minus">
+      <action name="ResizeRelative">
+        <left>-5</left>
+        <right>-5</right>
+        <top>-2</top>
+        <bottom>-2</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-S-equal">
+      <action name="ResizeRelative">
+        <left>5</left>
+        <right>5</right>
+        <top>2</top>
+        <bottom>2</bottom>
+      </action>
+    </keybind>
+    <!--# Move/Resize with keyboard-->
+    <keybind key="A-S-Left">
+      <action name="MoveRelative">
+        <x>-5</x>
+      </action>
+    </keybind>
+    <keybind key="A-S-Down">
+      <action name="MoveRelative">
+        <y>5</y>
+      </action>
+    </keybind>
+    <keybind key="A-S-Right">
+      <action name="MoveRelative">
+        <x>5</x>
+      </action>
+    </keybind>
+    <keybind key="A-S-Up">
+      <action name="MoveRelative">
+        <y>-5</y>
+      </action>
+    </keybind>
