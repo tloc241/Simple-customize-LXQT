@@ -6,9 +6,9 @@
 Custom DE dont have to install or download too much app
 ## Index
 
-- [1. Debian/Lubuntu](#Debian/Lubuntu)
+- [1. Debian/Lubuntu](#1.Debian/Lubuntu)
   - [1.1. Custom grub select menu](#1.1.Custom-grub-select-menu)
-- [2. Arch](#Arch)
+- [2. Arch](#2.Arch)
   - [2.1. Custom grub select menu](#2.1.Custom-grub-select-menu)
  
 ## 1. Debian/Lubuntu
