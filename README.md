@@ -4,11 +4,16 @@
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/913a85fc-67e8-457e-a30f-6d0c2655fb5c)
 
 Custom DE dont have to install or download too much app
+## Index
 
+- [Debian/Lubuntu](#Debian/Lubuntu)
+- [Arch](#Arch)
+
+## Debian/Lubuntu
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
-# 1. Custom grub select menu
+## 1. Custom grub select menu
 To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 
 ```
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
@@ -171,17 +176,6 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. `openbox --reconfigure`
 
-Optional: (kind of personal fix)
-
-install auto-cpufreq (if you r using a laptop)
-
-if you are using lenovo and want to change lenovo logo, go to lenovo logo tab one
-
-if you using ibus but having problem, you can go to ibus troubleshoot tab one
-
-if you have problem with pulseaudio, you can go to pulseaudio tab one
-
-if your discord can't share audio in browser then go to discord fix tab one
-
+## Arch 
 THANKS YOUR GUY FOR READING. :) :)
 
