@@ -9,7 +9,7 @@ Custom DE dont have to install or download too much app
 - [Debian & Lubuntu](#Debian-and-Lubuntu)
   - [Custom grub select menu](#Custom-grub-select-menu)
 - [Arch](#Arch)
-  - [Custom grub select menu ](#1-Custom-grub-select-menu-)
+  - [Custom grub select menu ](#Custom-grub-select-menu-)
  
 ## Debian and Lubuntu
 
@@ -179,7 +179,7 @@ If it still giving you a problem, then i think you should reinstall gpu driver (
 
 ## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
-### 1 Custom grub select menu 
+### Custom grub select menu 
 `yay -S grub-customizer`
 `sudo update-grub`
 `/boot/grub/` `grub.cfg`
