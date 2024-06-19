@@ -7,16 +7,16 @@ Custom DE dont have to install or download too much app
 ## Index
 
 - [Debian & Lubuntu](#Debian-and-Lubuntu)
-  - [Custom grub select menu](#Custom-grub-select-menu)
+  - [Custom grub select menu](#Custom-grub-select-menu-d)
 - [Arch](#Arch)
-  - [Custom grub select menu ](#Custom-grub-select-menu-)
+  - [Custom grub select menu ](#Custom-grub-select-menu-a)
  
 ## Debian and Lubuntu
 
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
-### Custom grub select menu 
+### Custom grub select menu d
 To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 
 ```
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
@@ -59,7 +59,7 @@ After that remember to save it, and that all
 
 ![lol](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/1351abb9-ffd3-4a04-934f-c6e5b632ddd5)
 
-### 2 Change lxqt boot logo
+### 2 Change lxqt boot logo d
 
 1. To change this you have to install plymouth, just simply type: `sudo nala install -y plymouth`
 
@@ -86,7 +86,7 @@ And that all, enjoy your custom boot logo
 
 ![Screenshot_20240514-143641](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/85339a72-a3cf-410f-8c61-7349fae0adff)
 
-### 3 Change lxqt lock screen
+### 3 Change lxqt lock screen d
 
 LXQT use sddm at is lock screen so it can be change as well, unfortunally, i only capable to make [MarianArlt sddm](https://github.com/MarianArlt/sddm-sugar-dark) work, other sddm lock sreen you found on gnome-look might not work, and i don't know how to fix it either, sr
 
@@ -112,7 +112,7 @@ sudo mv lubuntu lubuntu-bakcup
 
 ![Screenshot_20240514-145923](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/b7b809f4-3b01-4920-b165-612b96fcd641)
 
-### 4 Customise in the main desktop 
+### 4 Customise in the main desktop d
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/86fb4823-877e-4603-9556-e939a0de78db)
 
 *Install Ulauncher :*
@@ -169,7 +169,7 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. `openbox --reconfigure`
 
-## 5 Troubleshoot
+## 5 Troubleshoot d
 
 If the panel just disable, try to delete the new one u just add and rename the original one back to normal.
 
@@ -179,22 +179,22 @@ If it still giving you a problem, then i think you should reinstall gpu driver (
 
 ## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
-### Custom grub select menu 
+### Custom grub select menu a
 `yay -S grub-customizer`
 `sudo update-grub`
 `/boot/grub/` `grub.cfg`
-### 2 Change lxqt boot logo
+### 2 Change lxqt boot logo a
 `yay -S plymouth`
-### 3 Change lxqt lock screen
+### 3 Change lxqt lock screen a
 `yay -S sddm`
-### 4 Customise in the main desktop
+### 4 Customise in the main desktop a
 `yay -S ulauncher`
 `yay -S plank`
 `yay -S papirus-icon-theme`
 `~/.local/share/themes/`
 `~/.local/share/fonts/`
 tiling
-### 5 Troubleshoot
+### 5 Troubleshoot a
 install driver: 
 ```
 yay -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
