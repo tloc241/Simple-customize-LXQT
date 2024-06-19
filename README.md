@@ -8,10 +8,11 @@ Custom DE dont have to install or download too much app
 
 - [Debian/Lubuntu](#Debian/Lubuntu)
   - [Custom grub select menu](#Custom-grub-select-menu)
-- [2. Arch](#2.Arch)
-  - [2.1. Custom grub select menu](#2.1.Custom-grub-select-menu)
+- [Arch](#Arch)
+  - [Custom grub select menu](#Custom-grub-select-menu)
  
 ## Debian/Lubuntu
+
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
@@ -176,9 +177,9 @@ If it still can't fix it then you have to reinstall lxqt desktop (do not worry, 
 
 If it still giving you a problem, then i think you should reinstall gpu driver (no recommend), you can go to this website to install [it.](https://github.com/lutris/docs/blob/master/InstallingDrivers.md)
 
-## 2. Arch 
+## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
-### 2.1. Custom grub select menu
+### Custom grub select menu
 `yay -S grub-customizer`
 `sudo update-grub`
 `/boot/grub/` `grub.cfg`
