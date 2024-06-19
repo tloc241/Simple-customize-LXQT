@@ -9,7 +9,7 @@ Custom DE dont have to install or download too much app
 - [Debian & Lubuntu](#Debian-and-Lubuntu)
   - [Custom grub select menu](#Custom-grub-select-menu)
 - [Arch](#Arch)
-  - [Custom grub select menu](#Custom-grub-select-menu-)
+  - [Custom grub select menu ](#1.Custom-grub-select-menu-)
  
 ## Debian and Lubuntu
 
@@ -169,7 +169,7 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. `openbox --reconfigure`
 
-## 1.5. Troubleshoot
+## 5. Troubleshoot
 
 If the panel just disable, try to delete the new one u just add and rename the original one back to normal.
 
@@ -179,22 +179,22 @@ If it still giving you a problem, then i think you should reinstall gpu driver (
 
 ## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
-### 1. Custom grub select menu 
+### 1 Custom grub select menu 
 `yay -S grub-customizer`
 `sudo update-grub`
 `/boot/grub/` `grub.cfg`
-### 2. Change lxqt boot logo
+### 2 Change lxqt boot logo
 `yay -S plymouth`
-### 3. Change lxqt lock screen
+### 3 Change lxqt lock screen
 `yay -S sddm`
-### 4. Customise in the main desktop
+### 4 Customise in the main desktop
 `yay -S ulauncher`
 `yay -S plank`
 `yay -S papirus-icon-theme`
 `~/.local/share/themes/`
 `~/.local/share/fonts/`
 tiling
-### 5. Troubleshoot
+### 5 Troubleshoot
 install driver: 
 ```
 yay -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
