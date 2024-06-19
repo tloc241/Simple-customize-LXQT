@@ -6,17 +6,17 @@
 Custom DE dont have to install or download too much app
 ## Index
 
-- [Debian/Lubuntu](#Debian/Lubuntu)
+- [Debian/Lubuntu](#Debian/Lubuntu.)
   - [Custom grub select menu](#Custom-grub-select-menu)
 - [Arch](#Arch)
-  - [Custom grub select menu](#Custom-grub-select-menu)
+  - [Custom grub select menu](#Custom-grub-select-menu.)
  
-## Debian/Lubuntu
+## Debian/Lubuntu.
 
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
-### Custom grub select menu
+### Custom grub select menu 
 To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 
 ```
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
@@ -179,22 +179,22 @@ If it still giving you a problem, then i think you should reinstall gpu driver (
 
 ## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
-### Custom grub select menu
+### Custom grub select menu.
 `yay -S grub-customizer`
 `sudo update-grub`
 `/boot/grub/` `grub.cfg`
-### 2.2. Change lxqt boot logo
+### 2.2. Change lxqt boot logo.
 `yay -S plymouth`
-### 2.3. Change lxqt lock screen
+### 2.3. Change lxqt lock screen.
 `yay -S sddm`
-### 2.4. Customise in the main desktop 
+### 2.4. Customise in the main desktop.
 `yay -S ulauncher`
 `yay -S plank`
 `yay -S papirus-icon-theme`
 `~/.local/share/themes/`
 `~/.local/share/fonts/`
 tiling
-### 2.5. Troubleshoot
+### 2.5. Troubleshoot.
 install driver: 
 ```
 yay -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
