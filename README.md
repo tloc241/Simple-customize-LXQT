@@ -6,12 +6,12 @@
 Custom DE dont have to install or download too much app
 ## Index
 
-- [Debian & Lubuntu](#Debian-&-Lubuntu)
+- [Debian & Lubuntu](#Debian-and-Lubuntu)
   - [Custom grub select menu](#Custom-grub-select-menu)
 - [Arch](#Arch)
   - [Custom grub select menu](#Custom-grub-select-menu.)
  
-## Debian & Lubuntu
+## Debian and Lubuntu
 
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
