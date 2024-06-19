@@ -9,7 +9,7 @@ Custom DE dont have to install or download too much app
 - [Debian & Lubuntu](#Debian-and-Lubuntu)
   - [Custom grub select menu](#Custom-grub-select-menu)
 - [Arch](#Arch)
-  - [Custom grub select menu ](#Custom-grub-select-menu-)
+  - [Custom grub select menu ](#1-Custom-grub-select-menu-)
  
 ## Debian and Lubuntu
 
