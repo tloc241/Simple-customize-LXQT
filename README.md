@@ -6,14 +6,16 @@
 Custom DE dont have to install or download too much app
 ## Index
 
-- [Debian/Lubuntu](#Debian/Lubuntu)
-- [Arch](#Arch)
-
+- [I. Debian/Lubuntu](#Debian/Lubuntu)
+  - [1. Custom grub select menu](#1.Custom-grub-select-menu)
+- [II. Arch](#Arch)
+  - [1. Custom grub select menu](#1.Custom-grub-select-menu)
+ 
 ## Debian/Lubuntu
 I'm really recommend you to install Nala, Nala can be alot faster compare to apt, to install Nala you can open terminal by ctrl+alt+t, then you ctrl +c this line: `sudo apt install -y nala` and press enter.
 
 It'll ask for password (bcs you use sudo) just type in and enter again. For now on much of command that have 'apt', 'apt-get' can replace with nala (add-apt can't replace bcs it add repo so you can install with nala ok)
-## 1. Custom grub select menu
+### 1. Custom grub select menu
 To custom grub you have to install grub customizer. To install simply open terminal (ctrl+alt+t) and type: 
 ```
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
@@ -21,7 +23,7 @@ sudo nala install -y grub-customizer
 ```
 and it will done the job for you.
 After it done doing it thing, you press 'super key / windows key' on you keyboard and search for grub customizer and open it. 
-# At here you can change name and add more custom boot
+#### At here you can change name and add more custom boot
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/c52de175-83f8-44aa-a003-3c706324d447)
 
 At default, Lubuntu have an Ubuntu name, you can simply by double left click to the tile, after changing you have to type the save button on the top left of the windowx.
@@ -56,7 +58,7 @@ After that remember to save it, and that all
 
 ![lol](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/1351abb9-ffd3-4a04-934f-c6e5b632ddd5)
 
-# 2. Change lxqt boot logo
+### 2. Change lxqt boot logo
 
 1. To change this you have to install plymouth, just simply type: `sudo nala install -y plymouth`
 
@@ -83,7 +85,7 @@ And that all, enjoy your custom boot logo
 
 ![Screenshot_20240514-143641](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/85339a72-a3cf-410f-8c61-7349fae0adff)
 
-# 3. Change lxqt lock screen
+### 3. Change lxqt lock screen
 
 LXQT use sddm at is lock screen so it can be change as well, unfortunally, i only capable to make [MarianArlt sddm](https://github.com/MarianArlt/sddm-sugar-dark) work, other sddm lock sreen you found on gnome-look might not work, and i don't know how to fix it either, sr
 
@@ -109,10 +111,8 @@ sudo mv lubuntu lubuntu-bakcup
 
 ![Screenshot_20240514-145923](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/b7b809f4-3b01-4920-b165-612b96fcd641)
 
-# 4. Customise in the main desktop 
+### 4. Customise in the main desktop 
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/86fb4823-877e-4603-9556-e939a0de78db)
-
-If you want to look like mine, you have to install 2 app. Ulauncher and Plank
 
 *Install Ulauncher :*
 1. just type in terminal `sudo nala install -y ulauncher` and it'll do it thing, if it fail just add respo `sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y`
@@ -152,14 +152,6 @@ Make sure to turn on compton* if you don't have compton, just install it: `sudo 
 3. go to `autorun` tab
 4. `add` compton to it (similar to plank)
 
-*Troubleshoot:*
-
-If the panel just disable try to delete a new one and rename the original one to get back to normal.
-
-If it still can't fix it then you have to reinstall lxqt desktop (do not worry, it won't earse any of your customization anyway): `sudo apt install --reinstall lubuntu-desktop` (you have to use apt, nala don't work on this)
-
-If it still have problem then i think you should install gpu driver, you can go to this website to install [it.](https://github.com/lutris/docs/blob/master/InstallingDrivers.md)
-
 Optional *Dark mode*
 
 To have dark mode in Lxqt you use have to search for appearence and set wiget style like mine: ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/454f0b89-fb29-4d13-b3be-a8febfbd3ab2)
@@ -176,6 +168,40 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. `openbox --reconfigure`
 
+## 5. Troubleshoot
+
+If the panel just disable, try to delete the new one u just add and rename the original one back to normal.
+
+If it still can't fix it then you have to reinstall lxqt desktop (do not worry, it won't earse any of your customization anyway): `sudo apt install --reinstall lubuntu-desktop` (you have to use apt, nala don't work on this)
+
+If it still giving you a problem, then i think you should reinstall gpu driver (no recommend), you can go to this website to install [it.](https://github.com/lutris/docs/blob/master/InstallingDrivers.md)
+
 ## Arch 
+first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
+### 1. Custom grub select menu
+`yay -S grub-customizer`
+`sudo update-grub`
+`/boot/grub/` `grub.cfg`
+### 2. Change lxqt boot logo
+`yay -S plymouth`
+### 3. Change lxqt lock screen
+`yay -S sddm`
+### 4. Customise in the main desktop 
+`yay -S ulauncher`
+`yay -S plank`
+`yay -S papirus-icon-theme`
+`~/.local/share/themes/`
+`~/.local/share/fonts/`
+tiling
+### 5. Troubleshoot
+install driver: 
+```
+yay -S nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings
+then reboot
+```
+if you have trouble with extracting file, go to `edit` tab (upper left), go to `preferences`, go to `advanced tab`, in `archiver integration` swicth it to `lxqt-archiver` and it should fix now
+
+if you press `f4` of right-click to open up the terminal but it keep showing up xterm, here is how to fix it: go to `edit` tab (upper left), go to `preferences`, go to `advanced tab`, in `terminal emulator` change it to `qterminal` or anything else you use (EX: xfce4-terminal)
+
 THANKS YOUR GUY FOR READING. :) :)
 
