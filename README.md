@@ -188,7 +188,7 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 *install tiling windows*
 1. navigate to `~/.config/openbox/rc.xml`, make a `backup` of this file
 2. open this file with featherpad or nano
-3. add this thing to this place ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/e76929a3-c491-4e10-8705-53ab6dae0eb2)
+3. add [this](tiling.txt) thing to this place ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/e76929a3-c491-4e10-8705-53ab6dae0eb2)
 
 (at middle keyboard and keybind) copy all in tiling.txt file to `rc.xml`
 
@@ -392,7 +392,7 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 *install tiling windows*
 1. navigate to `~/.config/openbox/rc.xml`, make a `backup` of this file
 2. open this file with featherpad or nano
-3. add this thing to this place ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/e76929a3-c491-4e10-8705-53ab6dae0eb2)
+3. add [this](tiling.txt) thing to this place ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/e76929a3-c491-4e10-8705-53ab6dae0eb2)
 
 (at middle keyboard and keybind) copy all in tiling.txt file to `rc.xml`
 
