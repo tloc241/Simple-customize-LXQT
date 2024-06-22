@@ -3,7 +3,7 @@
 
 ![screenshot-31d0dc42](https://github.com/tloc241/Simple-customize-LXQT/assets/112869206/80ae8775-0b74-49bc-8764-4bab3100c839)
 
-Custom DE dont have to install or download too much app
+Custom DE don't have to install or download too much app
 ## Index
 
 - [1. Debian & Lubuntu](#Debian-and-Lubuntu)
