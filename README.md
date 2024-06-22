@@ -167,7 +167,7 @@ In case you want to make the panel smaller, this is how:
 2. go to `autorun` tab
 3. `add` compton to it (similar to plank)
 
-##### **Optional** *Windows and tilling themes*
+**Optional** *Windows and tilling themes*
 *Change windows themes*
 
 At default, LXQT have a few collection of palette for you to choice. But none of those fit your taste, here is how to add more palette into:
@@ -204,7 +204,9 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 LXQT use Qterminal at it main (it also have xterm preinstall), xterm is a no go, Qterminal in the other hand pretty good at customize. But if you want to flexing to people online using neofetch then i recommend you switch to xfce4-terminal. The resson is Qternimal itselt can't render custom image. 
 
 *Changing theme in Qterminal*
-1. Qterminal theme is reliant palette so u have to check [this](#Windows-and-tilling-themes)
+*Changing theme in Qterminal* (if none of the color scheme preinstall don't fit your taste then you can check the below)
+1. Qterminal theme is reliant palette so u have to check *Windows and tilling themes* above
+2. After you done, `open` up the terminal and go to `file->preferences->appearences->color scheme` and change it to the one you just add
 *Changing theme in Xfce4-terminal*
 1. `Download` the theme online, i'm highly recommend [this](https://github.com/nordtheme/xfce-terminal/tree/develop)
 2. `Extract` the download file, and move it to `~/.local/share/xfce4/terminal/colorschemes/`
@@ -395,8 +397,9 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 1. `Install` icon themes, highly recommend [this](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) `yay -S papirus-icon-theme`
 2. Now open `appearences` and go to `icon themes`, change to the one you just done install
 
-*Changing theme in Qterminal*
-1. Qterminal theme is reliant palette so u have to check [this](#Windows-and-tilling-themes)
+*Changing theme in Qterminal* (if none of the color scheme preinstall don't fit your taste then you can check the below)
+1. Qterminal theme is reliant palette so u have to check *Windows and tilling themes* above
+2. After you done, `open` up the terminal and go to `file->preferences->appearences->color scheme` and change it to the one you just add
 
 *Changing theme in Xfce4-terminal*
 1. `Download` the theme online, i'm highly recommend [this](https://github.com/nordtheme/xfce-terminal/tree/develop)
