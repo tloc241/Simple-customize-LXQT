@@ -1,5 +1,0 @@
-highly recommend you to use gparted, install it simply 'sudo nala install -y gparted'
-then open up the app and just simply copy entirely your partion in there to a new drive you want to use
-after that reboot your system to check
-after checking and it dont have any problem, nơw you can delete you old partion and give it back to the OS in that partion so it can have more space
-after that, make another reboot to check, if your grub still showing up, that mean it good to use and you dont have to worry
