@@ -127,11 +127,12 @@ sudo mv lubuntu lubuntu-bakcup
 1. just type in terminal `sudo nala install -y ulauncher` and it'll do it thing, if it fail just add respo `sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y`
 2. Now open ulauncher, it will show up a searchbar look on the righ, you see to wheel thing, click into it, it'll show this GUI ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/dc4a9162-af90-4d90-bf8f-6050e75669c9)
 3. click to `launch at login` and close it
-Optional:
-4. To change theme you have to download ulauncher theme (https://www.pling.com/p/1995620)
-5.  then go to `/home/lo1402/.config/ulauncher` (if it don't show up just open it angain and f5)
-6. `Move` your themes to there, and `rename` it to user-themes
-7. go back to ulauncher app, go to color themes and change to your themes just add
+
+**Optional:**
+1. To change theme you have to download ulauncher theme (https://www.pling.com/p/1995620)
+2.  then go to `/home/lo1402/.config/ulauncher` (if it don't show up just open it angain and f5)
+3. `Move` your themes to there, and `rename` it to user-themes
+4. go back to ulauncher app, go to color themes and change to your themes just add
 
 *Install Plank*
 1. Type in terminal: `sudo nala install -y plank` and wait
@@ -151,19 +152,36 @@ Optional:
 4. move the `panel.conf` you just download in `~/.config/lxqt/`
 5. log out to see if it work or not
 
-Optional: *Add transparancy to panel*
+**Optional:** *Add transparancy to panel*
 1. tick on background color, and set opacity to below 70% 
 
 ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/a68dd22d-7960-455d-85dd-e11e0ccf3ebb)
 
-Make sure to turn on compton* if you don't have compton, just install it: `sudo nala install -y compton`
-2. set compton to auto run, to do that you have to `open session setting`
-3. go to `autorun` tab
-4. `add` compton to it (similar to plank)
+In case you want to make the panel smaller, this is how:
+1. open up the `panel.conf` file in `~/.config/lxqt/`
+2. then open that file up, look for line `width` ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/f7c796c5-3fab-4523-aa0f-a99be4cce705)
+3. now save it. log out to check does it work or not.
 
-Optional *Dark mode*
+**Make sure to turn on compton** (if you don't have compton, just install it: `sudo nala install -y compton`)
+1. set compton to auto run, to do that you have to `open session setting`
+2. go to `autorun` tab
+3. `add` compton to it (similar to plank)
 
-To have dark mode in Lxqt you use have to search for appearence and set wiget style like mine: ![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/454f0b89-fb29-4d13-b3be-a8febfbd3ab2)
+**Optional** *Windows and tilling themes*
+*Change windows themes*
+
+At default, Lubuntu have a few collection of palette for you to choice. But none of those fit your taste, here is how to add more palette into:
+1. you have to `download` a theme, you can check [this](https://www.pling.com/p/2119028/) if your want.
+2. `extract` the zip file you just get
+3. `copy` that file to `~/.local/share/lxqt/` (if the lxqt folder does not exist, create it first)
+noite: if you download the theme i put above, the one you have to move is `Breeze-Lxqt`
+4. after moving it, you have to `open` it up. It must of the time have 2 folder. you have to move all of the file outside it, like this: ![screen54](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/dca0d99a-23a8-4946-a72b-821bf1bc1b90)
+5. now you can go to `Appearance` and change to the new palette you just add by pressing `load palette`
+
+*Change system title bar*
+1. found the one you like, you can check [this]()
+2. `extract` it, and move it to `/usr/share/themes/`
+3. now search for `openbox setting` and change it to the theme you just add
 
 LXQT also have picom preinstall, but you cant config it, you have to config it throught compton: `~/.config/compton.conf`
 
@@ -176,6 +194,24 @@ LXQT also have picom preinstall, but you cant config it, you have to config it t
 
 4. save it
 5. Run command in terminal to reconfigure openbox for the shortcut to take effect. `openbox --reconfigure`
+
+**Optional** *Change terminal theming.*
+
+LXQT use Qterminal at it main (it also have xterm preinstall), xterm is a no go, Qterminal in the other hand pretty good at customize. But if you want to flexing to people online using neofetch then i recommend you switch to xfce4-terminal. The resson is Qternimal itselt can't render custom image. 
+
+*Changing theme in Qterminal*
+1. 
+*Changing theme in Xfce4-terminal*
+1. `Download` the theme online, i'm highly recommend [this](https://github.com/nordtheme/xfce-terminal/tree/develop)
+2. `Extract` the download file, and move it to `~/.local/share/xfce4/terminal/colorschemes/`
+3. `open` up xfce4-terminal, go to `edit` tab and chosse `preferences`, go to `colors` and change `presets` to the theme you just add
+
+*Changing font for terminal*
+1. `Download` font from the web, [this](https://www.nerdfonts.com/font-downloads) one is really good, expecially the gohu font one
+2. `extract` it, and move it to `~/local/share/fonts/` (if it don't have that folder just create it)
+3. `open` up your terminal, go to `edit` tab and chosse `preferences`,  go to `appearences` and change `font` to the one you just add
+
+Note: If you want your terminal transparent, find the `opacity` thing, and change it to your liking.
 
 ## Troubleshoot (debian)
 
