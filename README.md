@@ -1,7 +1,7 @@
 # Simple-customise-lxqt
 #Preview
 
-![image](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/913a85fc-67e8-457e-a30f-6d0c2655fb5c)
+![screenshot-31d0dc42](https://github.com/tloc241/Simple-customize-LXQT/assets/112869206/80ae8775-0b74-49bc-8764-4bab3100c839)
 
 Custom DE dont have to install or download too much app
 ## Index
