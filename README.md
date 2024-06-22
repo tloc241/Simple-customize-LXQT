@@ -179,7 +179,7 @@ noite: if you download the theme i put above, the one you have to move is `Breez
 5. now you can go to `Appearance` and change to the new palette you just add by pressing `load palette`
 
 *Change system title bar*
-1. found the one you like, you can check [this]()
+1. found the one you like, you can check [this](https://www.gnome-look.org/p/1755582)
 2. `extract` it, and move it to `/usr/share/themes/`
 3. now search for `openbox setting` and change it to the theme you just add
 
@@ -377,7 +377,7 @@ noite: if you download the theme i put above, the one you have to move is `Breez
 5. now you can go to `Appearance` and change to the new palette you just add by pressing `load palette`
 
 *Change system title bar*
-1. found the one you like, you can check [this]()
+1. found the one you like, you can check [this](https://www.gnome-look.org/p/1755582)
 2. `extract` it, and move it to `/usr/share/themes/`
 3. now search for `openbox setting` and change it to the theme you just add
 
