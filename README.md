@@ -230,6 +230,12 @@ If it still giving you a problem, then i think you should reinstall gpu driver (
 if you have trouble with extracting file, go to `edit` tab (upper left), go to `preferences`, go to `advanced tab`, in `archiver integration` swicth it to `lxqt-archiver` and it should fix now
 
 if you press `f4` of right-click to open up the terminal but it keep showing up xterm, here is how to fix it: go to `edit` tab (upper left), go to `preferences`, go to `advanced tab`, in `terminal emulator` change it to `qterminal` or anything else you use (EX: xfce4-terminal)
+
+**Important**: If your app can't install by dependency issue, try this:
+```
+sudo apt-get autoclean
+sudo apt-get -f install
+```
 ## Arch 
 first, install `yay` or `paru` depend on u, if `yay` this [link](https://www.tecmint.com/install-yay-aur-helper-in-arch-linux-and-manjaro/), if `paru` this [link](https://github.com/Morganamilo/paru)
 ### Custom grub select menu (arch)
