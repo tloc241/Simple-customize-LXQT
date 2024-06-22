@@ -167,7 +167,7 @@ In case you want to make the panel smaller, this is how:
 2. go to `autorun` tab
 3. `add` compton to it (similar to plank)
 
-#####**Optional** *Windows and tilling themes*
+##### **Optional** *Windows and tilling themes*
 *Change windows themes*
 
 At default, LXQT have a few collection of palette for you to choice. But none of those fit your taste, here is how to add more palette into:
