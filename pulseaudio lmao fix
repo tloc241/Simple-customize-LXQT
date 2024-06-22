@@ -1,6 +1,0 @@
-uninstall pulseaudio 'sudo nala remove pulse-audio)
-reinstall it 
-open session setting and go to autorun tab
-add name pulse audio
-command pulse audio
-save and log out to check
