@@ -1,0 +1,42 @@
+# Debian / Ubuntu 
+## uninstall pulseaudio : 
+sudo apt-get purge pulseaudio
+sudo apt-get clean && sudo apt-get autoremove
+reboot the system
+## install pipewire
+sudo apt install -y pipewire pipewire-audio-client-libraries pulseaudio-utils
+## install wireplumber
+sudo apt install -y wireplumber
+## activate pipewire
+systemctl enable --user pipewire
+systemctl enable --user wireplumber
+systemctl start --user pipewire
+systemctl start --user wireplumber
+## finally, check if it work
+pactl info | grep Server
+*Note:* In worse case pipewire not work then you have to try this
+systemctl --user enable --now pipewire && systemctl --user enable --now wireplumber &&  systemctl --user enable --now pipewire-pulse
+# Optional: Install easyeffects
+sudo nala install -y easyeffects 'and open it up'
+sudo nala install -y curl
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/PulseEffects-Presets/master/install.sh)"
+
+# Arch (https://linuxgenie.net/install-pipewire-on-arch-linux/)
+## uninstall pulseaudio : 
+yay -Rns pulseaudio
+reboot the system
+## install pipewire
+yay -S pipewire pipewire-alsa pipewire-media-session pipewire-pulse
+## install wireplumber
+yay -S wireplumber
+## activate pipewire
+systemctl --user mask pulseaudio
+systemctl --user --now enable pipewire pipewire-pulse wireplumber pipewire-media-session
+## finally, check if it work
+pactl info | grep Server
+*Note:* In worse case pipewire not work then you have to try this
+systemctl --user enable --now pipewire && systemctl --user enable --now wireplumber &&  systemctl --user enable --now pipewire-pulse
+# Optional: Install easyeffects
+yay -S easyeffects 'and open it up'
+yay -S curl
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/PulseEffects-Presets/master/install.sh)"
