@@ -1,4 +1,4 @@
-# Simple-customise-lxqt
+# Simple-customize-LXQT
 #Preview
 
 ![screenshot-31d0dc42](https://github.com/tloc241/Simple-customize-LXQT/assets/112869206/80ae8775-0b74-49bc-8764-4bab3100c839)
