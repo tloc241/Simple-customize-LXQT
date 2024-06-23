@@ -311,17 +311,9 @@ cd ~/Downloads
 ls
 sudo mv <folder name> /usr/share/sddm/themes
 ```
-3. If you using lxqt on lubuntu like mine, just rename ubuntu-theme folder (for backup resson) :
-```
-cd /usr/share/sddm/themes/
-sudo mv ubuntu-theme ubuntu-theme-bakcup
-```
-If you using lxqt in other distro just rename lubuntu folder: 
-```cd /usr/share/sddm/themes/
-sudo mv lubuntu lubuntu-bakcup
-```
-4. Now `rename` your theme folder to ubuntu-theme / lubuntu theme depend on your distro
-5. `log out` to see if it work 
+3. now go to `/etc/sddm.conf.d/` and open up `kde_setting.conf` file
+4. change `Current` to the theme you just download
+5. `log out` to see if it work or not
 
 ![Screenshot_20240514-145923](https://github.com/tloc241/simple-customise-lxqt/assets/112869206/b7b809f4-3b01-4920-b165-612b96fcd641)
 ### Customise in the main desktop (arch)
